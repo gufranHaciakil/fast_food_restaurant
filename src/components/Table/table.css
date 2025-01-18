@@ -1,0 +1,15 @@
+.transa-btns > button {
+  background-color: rgb(159, 159, 159);
+  color: whitesmoke;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+.transa-btns > button:hover {
+  background-color: var(--main-color);
+}
+.transa-btns > div > button {
+  background-color: rgb(231, 231, 231) !important;
+  color: whitesmoke;
+  padding: 8px 15px;
+  border-radius: 8px;
+}

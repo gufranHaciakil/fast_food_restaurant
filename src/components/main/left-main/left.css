@@ -1,0 +1,160 @@
+.main-cont .item-1 p:nth-child(2) {
+  color: var(--text-color);
+  letter-spacing: 1px;
+}
+.item-2 button:nth-child(1) {
+  background-color: var(--second-color);
+  color: #ffffff;
+}
+.item-2 button:nth-child(1):hover {
+  background-color: #f5ad4c24;
+  color: var(--second-color);
+}
+.item-2 button:nth-child(2):hover {
+  background-color: var(--second-color);
+  color: #ffffff;
+}
+.item-2 button:nth-child(2) {
+  background-color: #f5ad4c24;
+  color: var(--second-color);
+}
+.item-2 button {
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+@media (max-width: 870px) {
+  .left-main {
+    position: unset;
+    width: 100%;
+    margin: 1.5rem auto;
+  }
+  .left-main > div img {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .left-main {
+    margin-top: 0.5rem;
+  }
+}
+
+table td {
+  width: fit-content;
+  font-size: 15px;
+  padding: 6px 2px;
+  overflow: hidden;
+  padding-right: 15px;
+  margin: 10px 0;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.quant {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#main-table .quant > span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #eee;
+  text-align: center;
+  cursor: pointer;
+}
+table td,
+table th {
+  padding: 25px 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d7d6d697;
+  color: rgba(57, 0, 0, 0.421);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.order-info .item-1 p,
+.order-info .item-2 p {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.order-info .item-3 button,
+.place-order .item-4 button {
+  width: 100%;
+  padding: 10px 0;
+}
+.order-info .item-3 button:nth-child(1),
+.place-order .item-4 button:nth-child(1) {
+  background-color: var(--second-color);
+  color: #eee;
+}
+.order-info .item-3 button:nth-child(2),
+.place-order .item-4 button:nth-child(2) {
+  background-color: var(--main-color);
+  color: #eee;
+}
+
+.left-main::-webkit-scrollbar {
+  width: 5px;
+}
+
+.left-main::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 35px;
+}
+
+.left-main::-webkit-scrollbar-thumb {
+  border-radius: 35px;
+  -webkit-box-shadow: inset 0 0 6px var(--second-color);
+}
+
+.place-order {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2.8rem;
+}
+
+.place-order h2 {
+  color: var(--text-color);
+  padding: 0 30px;
+}
+.place-order .item-1,
+.place-order .item-2,
+.place-order .item-3 {
+  padding: 0 30px;
+}
+
+.place-order .item-1 p,
+.place-order .item-2 p,
+.place-order .item-3 p {
+  color: #5c5c5c;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+input[type="radio"] {
+  accent-color: var(--main-color);
+}
+.place-order .item-3 input {
+  color: #454545;
+  background-color: rgb(240, 239, 239);
+}
+.place-order .item-3 input:focus {
+  border-color: var(--main-color);
+}

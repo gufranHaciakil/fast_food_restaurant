@@ -1,0 +1,70 @@
+#booking-table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#booking-table td {
+  color: rgb(99, 99, 99);
+  font-weight: 500;
+  font-size: 15px;
+}
+#booking-table td,
+#booking-table th {
+  padding: 10px 33px;
+}
+
+#booking-table tr {
+  background-color: #ffffff;
+  border-top: 1px solid rgb(239, 239, 239);
+}
+
+#booking-table th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+.time {
+  color: rgb(2, 2, 2) !important;
+  font-weight: bold !important;
+}
+
+.item {
+  color: var(--main-color) !important;
+}
+.name {
+  color: var(--text-color) !important;
+  font-weight: bold !important;
+}
+#modal-table thead th {
+  font-weight: bold;
+  font-size: 16px;
+}
+#modal-table th,
+#modal-table td {
+  padding: 8px 5px;
+  background-color: #ffffff;
+}
+#modal-table tr {
+  background-color: #ffffff;
+}
+
+.animation {
+  animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

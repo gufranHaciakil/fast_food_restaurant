@@ -1,0 +1,35 @@
+.sidebar {
+  animation: translate-sidebar 0.5s;
+}
+
+@keyframes translate-sidebar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sidebar-cont .item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 17px 30px;
+}
+.item span {
+  color: #951414;
+}
+.sidebar-cont .item:hover {
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+.hid {
+    display: none !important;
+  }
+
+@media (max-width: 813px) {
+  .hid {
+    display: flex !important;
+  }
+}

@@ -1,0 +1,45 @@
+.scrolling {
+  overflow: hidden;
+  width: calc(160px * 14);
+  animation: scroll 60s 0.5s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-160px * 6));
+  }
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+}
+.logo span {
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+  font-weight: 600;
+  width: 7rem;
+  text-align: center;
+}
+.bg-item {
+  background-color: var(--second-color);
+  color: whitesmoke;
+}

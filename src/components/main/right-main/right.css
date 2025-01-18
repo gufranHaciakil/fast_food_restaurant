@@ -1,0 +1,17 @@
+.search > div {
+  background-color: var(--main-color);
+  color: whitesmoke;
+  transition: 0.2s;
+}
+.search input:focus {
+  border: 1px solid rgba(141, 0, 0, 0.252);
+}
+.search input {
+  color: gray;
+}
+
+@media (max-width: 870px) {
+  .right-main{
+    margin-left: 0;
+  }
+}
