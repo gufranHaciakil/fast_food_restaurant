@@ -28,7 +28,7 @@ const Table = ({
 
             <button
               className={`bg-lime-500 px-6 ${
-                box == "" ? "hidden" : "block"
+                box === "" ? "hidden" : "block"
               } py-4 rounded-full text-zinc-50 focus:ring-4 focus:ring-lime-300`}
             >
               {box}

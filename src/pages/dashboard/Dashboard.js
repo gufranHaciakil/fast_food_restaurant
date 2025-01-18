@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import LeftItem from "./left_item/LeftItem";
 import RightItem from "./right_item/RightItem";
 
